@@ -1,4 +1,5 @@
 const arr = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
+/* 0,1,2,3,4 */
 
 /* function removeDuplicateElements(array) {
   const uniqueArray = [];
@@ -10,7 +11,6 @@ const arr = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
     }
   }
   return uniqueArray
-
 } */
 
 function removeDuplicateElements(arr) {
@@ -21,6 +21,7 @@ function removeDuplicateElements(arr) {
       arr[index] = arr[i];
     }
   }
+  console.log(`array :${JSON.stringify(arr)}`);
   return index;
 }
 
