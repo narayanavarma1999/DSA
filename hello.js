@@ -141,7 +141,7 @@ const deepCopy = JSON.parse(JSON.stringify(original));
 deepCopy.address.city = "Mumbai";
  */
 //console.log(original.address.city); // ✅ "Hyderabad"
-function groupAnagrams(words) {
+/* function groupAnagrams(words) {
   const anagramGroups = {};
 
   for (let word of words) {
@@ -163,3 +163,4 @@ function groupAnagrams(words) {
 
 
 console.log(groupAnagrams(["bat", "tab", "eat", "tea", "tan", "ate", "nat"]));
+ */
