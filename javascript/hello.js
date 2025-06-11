@@ -1,3 +1,9 @@
+const obj = { a: 1, b: 2, c: 3 };
+const result = Object.entries(obj).map(([key, value]) => ({ key, value }));
+console.log(result);
+// [{ key: 'a', value: 1 }, { key: 'b', value: 2 }, { key: 'c', value: 3 }]
+
+
 /* function groupAnagrams(words) {
   const map = new Map();
 
