@@ -12,13 +12,13 @@ public class MergeArrays {
         System.out.println("The resultant array is " + Arrays.toString(result));
     }
 
-    public static int[] mergeArrays(int[] nums1, int[] num2, int m, int n) {
-    
+    public static int[] mergeArrays(int[] nums1, int[] nums2, int m, int n) {
+
         int p1 = m - 1;
         int p2 = n - 1;
         for (int i = m + n - 1; i >= 0; i--) {
-            if (p2 >= 0 && (num2[p2] > nums1[p1])) {
-                nums1[i] = num2[p2];
+            if (p2 >= 0 && (nums2[p2] > nums1[p1])) {
+                nums1[i] = nums2[p2];
                 p2--;
             } else {
                 nums1[i] = nums1[p1];
