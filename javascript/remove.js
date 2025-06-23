@@ -13,3 +13,5 @@ function removeTargetElement(arr, target) {
 }
 
 console.log(removeTargetElement(arr, 2));
+
+
