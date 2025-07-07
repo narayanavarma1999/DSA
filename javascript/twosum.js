@@ -1,18 +1,20 @@
 
-var twoSum = function (nums, target) {
-    const map = new Map()
-    for (let i = 0; i < nums.length; i++) {
-        let complement = target - nums[i]
-        if (!map.has(complement)) {
-            map.set(nums[i], i)
+var twoSum = function (numbers, target) {
+    let left = 0;
+    let right = numbers.length - 1;
+    while (left < right) {
+        let sum = numbers[left] + numbers[right]
+        if (sum === target) {
+            return [left + 1, right + 1]
+        } else if (sum > target) {
+            right--
         } else {
-            return [map.get(complement), i]
+            left++
         }
     }
-    return [-1, -1]
 };
 
 const nums = [2, 7, 11, 15]
 const target = 9
-console.log(nums+target)
+
 console.log(twoSum(nums, target))
