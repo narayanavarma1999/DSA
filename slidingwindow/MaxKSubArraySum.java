@@ -1,4 +1,4 @@
-package slidingwindow;
+
 
 public class MaxKSubArraySum {
     public static void main(String[] args) {

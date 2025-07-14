@@ -1,4 +1,4 @@
-package binarysearch;
+
 
 public class MinimumElement {
 

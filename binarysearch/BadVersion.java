@@ -1,4 +1,3 @@
-package binarysearch;
 
 public class BadVersion {
 
