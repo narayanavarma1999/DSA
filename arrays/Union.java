@@ -36,7 +36,7 @@ public class Union {
             result[index++] = nums1[i++];
         }
 
-        while (j < n) {
+        while (j < m) {
             result[index++] = nums2[j++];
         }
 
