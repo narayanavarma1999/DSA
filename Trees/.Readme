@@ -1,0 +1,9 @@
+# Tree
+
+Tree is a non - linear, hierarchical data structure
+
+- It consists of nodes
+- Each node can have only single parent node, except root node
+- A tree can have one or more child nodes
+- A tree has a single connected path between any two nodes
+- Trees do not form cycles like graphs
