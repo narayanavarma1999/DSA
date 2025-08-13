@@ -6,11 +6,11 @@ public class PreTraversal {
 
         // Build the binary tree
         // Example tree:
-        // 1
-        // / \
-        // 2 3
-        // / \
-        // 4 5
+        //     1
+        //   /    \
+        // 2        3
+        /// \
+        //4  5
 
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
